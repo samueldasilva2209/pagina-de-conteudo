@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgb(26, 25, 25);
+}
+header h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+header hr {
+  height: 5px;
+  background-color: rgb(255, 174, 0);
+  margin-bottom: 20px;
+}
+
+.titulo {
+  margin: auto;
+  width: 70%;
+  padding: 5px;
+}
+.titulo h2 {
+  font-size: 250%;
+  margin-bottom: 20px;
+}
+.titulo p {
+  color: rgb(71, 71, 71);
+}
+.titulo .autor {
+  margin: 20px 0px 20px 0px;
+}
+.titulo .autor .autor-name {
+  color: black;
+  font-size: 0.8em;
+}
+.titulo .autor .data {
+  color: rgb(56, 54, 54);
+  font-size: 0.5em;
+}
+
+.redes {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.redes img {
+  width: 24px;
+  cursor: pointer;
+}
+.titulo hr {
+  margin: 20px 0px 30px 0px;
+}
+
+/*  main */
+
+main {
+  margin: auto;
+  width: 50%;
+}
+main p {
+  font-size: 1.1rem;
+  color: rgb(63, 62, 62);
+  margin: 20px 0px 20px 0px;
+  line-height: 1.9em;
+}
+.redirect {
+  color: chocolate;
+  font-weight: bold;
+  cursor: pointer;
+}
+main figure {
+  margin: 20px 0px 20px 0px;
+}
+main figure img {
+  width: 100%;
+}
+main figure figcaption {
+  font-size: small;
+  color: rgb(96, 92, 92);
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(26, 25, 25);
+}
